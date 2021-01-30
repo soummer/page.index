@@ -1,0 +1,251 @@
+* {
+    overflow: auto;
+}
+
+body {
+
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    
+}
+
+
+
+div.contenu {
+    background-color: white;
+    margin: 40px 15px 20px 15px;
+    padding: 0px 8px 20px 8px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+   
+}
+
+h1 {
+   text-align: center;
+}
+
+div.separateur {
+    width: 100px;
+    height: 2px;
+    background-color: rgba(73, 113, 150, 0.795);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+
+
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -20px;  
+    padding: 8px 18px;                
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    
+} 
+div.categorie {
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: visible;
+    
+
+
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(53, 159, 201);
+    background-color: rgb(198, 216, 224); 
+    height: 50px;
+   
+}
+
+table.info td {
+    text-align: center;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+table.info th {
+    font-size: 14px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    
+}
+
+img.info{
+    display: block;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+div.colonne {
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+     
+}
+
+
+
+
+div.colonne1 {
+    display: inline-block;
+
+}
+
+   
+
+
+
+    
+div.ingredients p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.preparation p.numero {
+    background-color:  rgb(198, 216, 224);
+    color: rgb(53, 159, 201);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+
+}
+
+table.preparation td{
+    vertical-align: top;
+}
+
+
+table.preparation td.preparation_etape{
+    font-size: 14px;
+    padding-left: 15%;
+    padding-bottom: 10px;
+}
+
+table.preparation tr{
+    height: 40px;
+}
+
+div {
+    overflow: auto;
+}
+
+/*img {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}*/
+
+
+
+/* MON COMMENTAIRE CSS */
+ 
+
+/*style pour ordinateur*/
+
+   @media only screen and (min-width: 768px) {
+        
+       div.contenu {
+           margin: 80px 10% 80px 10%;
+           padding: 0px 30px 30px 30px;
+           min-width: 350px;
+           min-width: 650px;
+}
+
+table.info {
+    
+    height: 80px;
+   
+}
+
+table.info td {
+    text-align: center;
+   
+}
+
+table.info th {
+    font-size: 16px;
+  
+}
+
+
+
+
+div.colonne {
+    width: 45%;
+}
+
+div.colonne1 {
+    
+    margin-right: 10px;
+
+}
+
+   
+div.colonne2 { 
+    float: right;
+
+}
+
+
+}   
+
+@media only screen and (min-width: 900px) {
+         
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 645px;
+}
+
+
+
+
+
+}
